@@ -1,0 +1,43 @@
+.toast-container{
+    display: flex;
+    width: 100%;
+   
+    justify-content:space-between;
+    align-items:space-between;
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+
+}
+.success{
+    background-color: green;
+}
+.error{
+     background-color: red;
+}
+.bottom-left{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+.top-left{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.bottom-right{
+    position: fixed;
+    bottom: 10px;
+    right: 100px;
+}
+.top-right{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.toast-list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
